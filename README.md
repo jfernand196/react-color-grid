@@ -28,14 +28,15 @@ Ejemplos:
 --------------------------------------------------------------
 - VAR:
 --------------------------------------------------------------
-```var i = "global";
+```
+var i = "global";
 function foo() {
     i = "local";
     console.log(i); // local
 }
 foo();
 console.log(i); // local
----------------------------------------------------------------
+------------------------------------------------------------------------
 var i = "global";
 function foo() {
     var i = "local"; // Otra variable local solo para esta función
@@ -43,14 +44,17 @@ function foo() {
 }
 foo();
 console.log(i); // global
----------------------------------------------------------------
+```
+
 - CONST:
----------------------------------------------------------------
+
+```
 const i = 0;
 i = 1; // TypeError: Assignment to constant variable
----------------------------------------------------------------
+```
 - LET:
-----------------------------------------------------------------
+
+```
 function foo() {
     let i = 0;
     if(true) {
@@ -60,7 +64,7 @@ function foo() {
     console.log(i); // 0
 }
 foo(); 
---------------------------------------------------------------------
+
 ``` 
 
 # 4. ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada rama-1?
