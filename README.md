@@ -105,6 +105,7 @@ R:/
   align-items: center;
   margin-top: 10px;
   }
+  
 .c-services {
   width: 100%;
   background: white;
@@ -114,23 +115,26 @@ R:/
   justify-content: space-between;
   padding-left: 2px;
 }
+
 .c-services__item:hover{
     background-color: whitesmoke;
     box-shadow: 0px 5px 4px 0.5px rgb(224, 221, 221);
 }
+
 h3 {
   padding-left: 40px;
 }
+
 p {
   padding-left: 10px;
 }
+
 .c-services__item {
   background: whitesmoke;
   color: #fff;
   flex: none;
   width: calc((100% - 20px) / 2);
   margin-bottom: 10px;
-
   list-style: none;
   color: black;
   font-size: 20px;
