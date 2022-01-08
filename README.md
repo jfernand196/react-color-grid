@@ -42,7 +42,7 @@ function foo() {
     console.log(i); // local
 }
 foo();
-console.log(i); // global```
+console.log(i); // global
 ---------------------------------------------------------------
 - CONST:
 ---------------------------------------------------------------
@@ -59,7 +59,7 @@ function foo() {
     }
     console.log(i); // 0
 }
-foo();
+foo(); ``` 
 --------------------------------------------------------------------
 
 # 4. ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada rama-1?
