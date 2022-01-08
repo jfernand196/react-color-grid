@@ -87,7 +87,7 @@ El Virtual DOM es una representación del DOM guardada en memoria, que actúa de
 
 # 8. CSS con Flexbox
 R:/ 
-´´´.c-section__title {
+```.c-section__title {
   color: white;
   display: flex;
   background-color: black;
@@ -129,4 +129,4 @@ p {
   color: black;
   font-size: 20px;
   font-weight: lighter;
-}´´´
+}```
