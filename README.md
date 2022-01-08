@@ -61,7 +61,7 @@ function foo() {
 }
 foo(); 
 --------------------------------------------------------------------
-´´´
+``` 
 
 # 4. ¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada rama-1?
 R:/
